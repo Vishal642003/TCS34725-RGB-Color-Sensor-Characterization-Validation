@@ -1,0 +1,8 @@
+0.0 analysis of data gathered in nominal condition (VDD = 3 V, TA = 25C, AGAIN = 16, AEN = 1)
+1.0 verify sensor reading counts proportional to atime for all channels
+1.1 verify sensor reading counts proportional to gain for all channels
+2.0 characterize the affect of wait time on sensor reading counts
+2.1 verify sensor reading counts [jitter] vs gain and vs atime
+3.0 measure [mean, jitter] in dark sensor reading counts vs gain and vs atime
+4.0 verify colour sensor functionality (example: red colour light should output higher counts in red channel counts)
+5.0 determine the min and max I2C clock frequency for reliable communication
